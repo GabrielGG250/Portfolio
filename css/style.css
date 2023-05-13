@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(../imagens/fundo-frontend.jpg) no-repeat fixed center center;
+    background-size: contain;
+    background-color: rgb(59, 59, 91);
+}
+
+header#cabecalho {
+    display: flex;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    padding: 15px;
+    width: 96.6vw;
+    justify-content: space-between;
+}
+
+header#cabecalho > nav > ul.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+header#cabecalho > nav > ul > li > a {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+header#cabecalho > nav > ul > li > a:hover {
+    background-color: black;
+}
+
+main.container {
+    background-color: white;
+    height: 5000px;
+    max-width: 1084px;
+    margin: auto;    
+    font-size: 1.2em;
+    margin-top: 75vh;
+}
+
+section#head-main {
+    text-align: center;
+    font-size: 2.7em;
+    padding: 10px;
+}
