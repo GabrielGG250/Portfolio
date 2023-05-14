@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px){
+    header#cabecalho > h1 {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header#cabecalho {
+        width: 93vw;
+    }
+
+    header#cabecalho > h1 {
+        font-size: 2em;
+    }
+
+    header#cabecalho > nav > ul > li > a {
+        font-size: 1em;
+    }
+
+    main.container {
+        margin-top: 0vh;
+        width: 101vw;
+    }
+
+    main.container > img#imgfundo {
+        display: block;
+        width: 101vw;
+    }
+
+    div.proj {
+        width: 290px;
+    }
+
+    div.proj > img {
+        width: 289px;
+        height: 140px;
+    }
+}
