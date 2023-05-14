@@ -54,3 +54,28 @@ section#head-main {
     font-size: 2.7em;
     padding: 10px;
 }
+
+div.proj {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+
+}
+
+section#container-proj {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+div#horizon {
+    background: url(../imagens/projHorizon.jpeg) no-repeat;
+    background-size: contain;
+}
+
+div#horizon > p {
+    text-align: center;
+}
