@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 768px){
     header#cabecalho {
-        width: 93vw;
+        width: 95vw;
     }
 
     header#cabecalho > h1 {
@@ -29,13 +29,7 @@
         width: 101vw;
     }
 
-    div.proj {
-        width: 290px;
-        height: 440px;
-    }
-
-    div.proj > img {
-        width: 289px;
-        height: 140px;
+    article#descPerfil {
+        width: 80%;
     }
 }
