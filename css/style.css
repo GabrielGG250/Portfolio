@@ -151,13 +151,14 @@ article#descPerfil {
     width: 60%;
 }
 
-article > h2 {
+article#descPerfil > h2 {
     padding: 10px;
     margin-left: 10px;
 }
 
-article > p {
+article#descPerfil > p {
     padding: 5px 20px 10px 20px;
+    text-align: justify;
 }
 
 img#myfoto {

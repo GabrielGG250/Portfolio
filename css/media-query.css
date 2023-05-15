@@ -51,4 +51,10 @@
     article#descPerfil {
         width: 80%;
     }
+
+    article#descPerfil > h2 {
+        padding: 10px;
+        margin-left: 10px;
+        text-align: center;
+    }
 }
