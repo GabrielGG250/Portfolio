@@ -3,30 +3,49 @@
 @media screen and (max-width: 768px){
     header#cabecalho > h1 {
         margin-left: 5px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    header#cabecalho {
-        width: 95vw;
-    }
-
-    header#cabecalho > h1 {
         font-size: 2em;
     }
 
     header#cabecalho > nav > ul > li > a {
-        font-size: 1em;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    section#head-main {
+        text-align: center;
+        font-size: 2em;
+        padding: 10px;
     }
 
     main.container {
-        margin-top: 0vh;
+        margin-top: 10vh;
         width: 101vw;
     }
 
     main.container > img#imgfundo {
         display: block;
         width: 101vw;
+    }
+}
+
+@media screen and (max-width: 540px){
+    header#cabecalho {
+        width: 95vw;
+    }
+
+    header#cabecalho > h1 {
+        font-size: 1.5em;
+        margin-left: 0px;
+    }
+
+    header#cabecalho > nav > ul > li > a {
+        font-size: 0.8em;
+        padding: 9px;
+    }
+
+    div.proj {
+        width: 290px;
+        height: 440px;
     }
 
     article#descPerfil {
