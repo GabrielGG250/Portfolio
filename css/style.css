@@ -132,7 +132,6 @@ div.links > a {
     border-radius: 20px;
     margin: 0px 20px;
     transition: 0.2s ease-in-out;
-    box-sizing: border-box;
 }
 
 div.proj > div.links > a:hover {
@@ -182,7 +181,6 @@ div.linksContato {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* width: 200px; */
     padding: 5px 15px 5px 5px;
     margin: 10px;
     background-color: rgb(73, 73, 73);
@@ -191,6 +189,12 @@ div.linksContato {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.664);
     border-radius: 15px;
     font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+div.linksContato:hover {
+    background-color: rgb(100, 100, 100);
+    color: white;
 }
 
 div.linksContato > img.imgLinks {
