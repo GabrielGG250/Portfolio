@@ -203,7 +203,28 @@ div.linksContato > img.imgLinks {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(28, 28, 28);
     width: 98.9vw;
-    height: 200px;
+    height: 300px;
+}
+
+footer > div.proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: white;
+    height: 75%;
+    margin: 0px 0px;
+}
+
+footer > div.proj > h2 {
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer#fperfil {
+    height: 50px;
 }

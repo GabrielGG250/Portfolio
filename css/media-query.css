@@ -65,4 +65,8 @@
     img#myfoto {
         width: 320px;
     }
+
+    footer > section#portfolio {
+        width: 290px;
+    }
 }
