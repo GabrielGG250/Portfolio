@@ -26,6 +26,10 @@
         display: block;
         width: 101vw;
     }
+
+    div.linksContato {
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -56,5 +60,13 @@
         padding: 10px;
         margin-left: 10px;
         text-align: center;
+    }
+
+    img#myfoto {
+        width: 320px;
+    }
+
+    div.linksContato {
+        width: 200px;
     }
 }
