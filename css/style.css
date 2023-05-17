@@ -207,7 +207,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: rgb(28, 28, 28);
-    width: 98.9vw;
+    width: 100%;
     height: 300px;
 }
 
@@ -217,7 +217,7 @@ footer > div.proj {
     justify-content: flex-start;
     align-items: stretch;
     background-color: white;
-    height: 75%;
+    height: 230px;
     margin: 0px 0px;
 }
 

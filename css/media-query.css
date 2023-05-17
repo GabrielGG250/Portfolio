@@ -30,6 +30,10 @@
     div.linksContato {
         width: 200px;
     }
+
+    footer {
+        width: 101vw;
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -66,7 +70,7 @@
         width: 320px;
     }
 
-    footer > section#portfolio {
-        width: 290px;
+    footer > div.proj {
+        height: 270px;
     }
 }
